@@ -30,7 +30,7 @@ public class Sieb {
         }
         
     }
-    public static void getPrime(int n) {
+    public static void printPrime(int n) {
         
         for (int i = 1; i <= n; i++) {
             boolean istprimzahl = true;
