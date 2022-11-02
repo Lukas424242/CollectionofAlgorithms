@@ -10,7 +10,7 @@ public class TSPV2 {
 
     // final double[] startpunkt = new double[2];
     // Main Method
-    /*
+    
     public static void main(String[] args) {
         ArrayList<Double[]> punkte = new ArrayList<>(10);
 
@@ -20,16 +20,16 @@ public class TSPV2 {
         punkte.add(new Double[]{65.0, 2.0});
         punkte.add(new Double[]{64.0, 123.0});
         punkte.add(new Double[]{11.0, 40.0});
-        /*punkte.add(new Double[]{42.0, 69.0});
+        punkte.add(new Double[]{42.0, 69.0});
         
-        */
-       // punkte.add(new Double[]{69.0, 11.0});
-       // punkte.add(new Double[]{43.0, 17.0});
-        ///punkte.add(new Double[]{63.0, 80.0});
-        //punkte.add(new Double[]{64.0, 80.0});
+        
+        punkte.add(new Double[]{69.0, 11.0});
+        punkte.add(new Double[]{43.0, 17.0});
+        /punkte.add(new Double[]{63.0, 80.0});
+        punkte.add(new Double[]{64.0, 80.0});
 
         rec2(punkte);
-   // }
+    }
 // a b c d
     // b d c
     //
