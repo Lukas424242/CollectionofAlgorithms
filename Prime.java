@@ -3,7 +3,7 @@ public class Sieb {
     /**
      * @param args the command line arguments
      */
-    
+    // Sieve of eratosthenes
     public static void printprimes(int n){
         int[] array = new int[n+1];
         for (int i = 2; i < n +1; i++) {
@@ -29,6 +29,25 @@ public class Sieb {
             }
         }
         
+    }
+    public static void getPrime(int n) {
+        
+        for (int i = 1; i <= n; i++) {
+            boolean istprimzahl = true;
+
+            for (int j = 2; j < i; j++) {
+                if (i % j == 0) {
+                    istprimzahl = false;
+                    break;
+                }
+
+            }
+            if (istprimzahl) {
+             System.out.println(i);
+            }
+
+        }
+
     }
 
     
